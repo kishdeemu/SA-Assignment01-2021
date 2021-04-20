@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BMIServiceProducer
+Bundle-SymbolicName: BMIServiceProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: bmiserviceproducer.BMIServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: BMIServiceProducer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: bmiserviceproducer

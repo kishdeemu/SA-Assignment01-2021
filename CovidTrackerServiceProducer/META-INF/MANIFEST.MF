@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CovidTrackerServiceProducer
+Bundle-SymbolicName: CovidTrackerServiceProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: covidtrackerserviceproducer.CovidTrackerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: CovidTrackerServiceProducer
+Import-Package: com.org.json,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: covidtrackerserviceproducer
